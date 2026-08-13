@@ -5,7 +5,7 @@
 
 `simulation_results` contains all simulation results. 
 
-The file name is structured as follows: Community_optimisationmethod_tradeoffvalue_typeofdata.csv
--> Community either HvSC1 or HvSC2
--> Optimisation method: l2pfba, L2, pfba
--> tradeoff: actual tradeoff value * 10 (i.e 08 = alpha 0.8)
+- The file name is structured as follows: Community_optimisationmethod_tradeoffvalue_typeofdata.csv
+    - Community: either HvSC1 or HvSC2
+    - Optimisation method: l2pfba, L2, pfba
+    - tradeoff: actual tradeoff value * 10 (i.e 08 = alpha 0.8)
