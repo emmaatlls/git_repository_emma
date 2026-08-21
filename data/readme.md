@@ -4,6 +4,7 @@
 - `GEMS_generation_curation` contains the genome files, draft and curated models
 - `communties` contains simulation results (growth-results) and drop-out communities
 - `media_creation` contains raw metabolomic files and the created media csv
+- `plotsnfigs` contains figures and other plots shown in the thesis/defence
 
 
 ### Other Files

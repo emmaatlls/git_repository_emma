@@ -6,7 +6,7 @@
     - `community.ipynb`: creation and analysis of the two SynComs
     - `dropouts.ipynb` : creation and analysis of the dropout communities. Part of this was done using HPC xxxx
     - `medium.ipynb`: creation of medium from metabolomic data, complete for communities 
-    - `optimisation_strategies`: comparison of different optimisation strategies and definition of my custom l2pfba function
+    - `optimisation_strategies.ipynb`: comparison of different optimisation strategies and definition of my custom l2pfba function
     - `functions.py`: functions used across notebooks
 
 
