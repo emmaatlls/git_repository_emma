@@ -1,0 +1,123 @@
+% !TeX TXS-program:compile = txs:///pdflatex/[--shell-escape]
+\documentclass[
+  12pt,
+  a4paper,
+  twoside=false,
+  english
+]{hhud-thesis}
+
+\KOMAoptions{chapterprefix=false}
+\setlength{\headsep}{1pt}
+\recalctypearea
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{helvet}
+\usepackage[titletoc,]{appendix}
+\usepackage{csquotes}
+\usepackage[calc]{datetime2}
+\usepackage{ifthen}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{iflang}
+\usepackage{makeidx}
+\usepackage{nomencl}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{todonotes}
+\usepackage[style=apa]{biblatex}
+\usepackage{float}
+\usepackage{booktabs, multirow} % for borders and merged ranges
+\usepackage{soul}% for underlines
+\usepackage{xcolor,colortbl} % for cell colors
+\usepackage{changepage,threeparttable} % for wide tables
+\usepackage{booktabs}
+\usepackage{longtable}
+
+% Used for Code Listings
+\usepackage{listings}
+\usepackage[chapter]{minted}
+
+\usepackage{csquotes}
+\usepackage[%
+    per-mode=symbol,
+    exponent-product=\cdot,
+    prefix-mode=combine-exponent,
+    drop-zero-decimal
+    ]{siunitx}
+
+% Pretty references using \cref eg: \cref{fig:example} -> "Figure 1" compare to "\ref{fig:example}" -> 1
+\usepackage[nameinlink, capitalise]{cleveref}
+
+\renewcommand{\listoflistingscaption}{Listings}
+
+\input{thesis_meta}
+
+\IfLanguageName{ngerman}{
+    \newcommand{\thesistype}{\graduationlevel{}arbeit}
+}{
+    \ifthenelse{\equal{\graduationlevel}{Seminar}}
+    {% Seminararbeit
+        \newcommand{\thesistype}{Seminar Paper}
+    }
+    {% Abschlussarbeit
+        \newcommand{\thesistype}{\graduationlevel{}'s Thesis}
+    }
+}
+
+\listfiles
+\makeindex
+
+% Include all BibTeX resources in the preambel
+\addbibresource{bib/bib2908.bib}
+
+\begin{document}
+\onehalfspacing
+\setlength{\parskip}{0pt} % Removes space between paragraphs
+\frontmatter
+\maketitle
+
+\cleardoublepage
+
+\input{abstract}
+
+\pdfbookmark[0]{\contentsname}{content}
+\tableofcontents
+
+\listoffigures 
+
+\listoftables 
+
+
+\mainmatter
+
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%    Beginning of the main document        %%
+%%                                          %%
+%%    Include your tex-files with \input{}  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{intro}
+\input{background}
+\input{methods}
+\input{results}
+\input{discussion}
+\input{conclusion}
+
+\printbibliography
+\cleardoublepage
+\input{appendix}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%    End of the main document              %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\backmatter
+
+\printindex
+
+\input{static/declaration} % Input nicht include, damit es nur eine Seite wird.
+\input{ki-nutzung}  % Input nicht include, damit es nur eine Seite wird.
+
+\cleardoublepage
+
+\end{document}
