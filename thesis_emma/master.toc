@@ -1,0 +1,65 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\nonumberline List of Figures}{v}{chapter*.2}%
+\contentsline {chapter}{\nonumberline List of Tables}{vi}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Background}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Plant-microbe interactions}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Metabolic interactions within microbial communities}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Design and applications of synthetic communities}{6}{subsection.2.1.2}%
+\contentsline {subsubsection}{\nonumberline Synthetic communities HvSC1 and HvSC2}{6}{subsubsection*.4}%
+\contentsline {section}{\numberline {2.2}Genome-scale and constraint-based metabolic modelling}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Metabolic network reconstruction}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Reconstructing GEMs}{9}{subsection.2.2.2}%
+\contentsline {subsubsection}{\nonumberline Biomass in metabolic models}{11}{subsubsection*.5}%
+\contentsline {subsubsection}{\nonumberline Biomass in metabolic models}{11}{subsubsection*.6}%
+\contentsline {subsection}{\numberline {2.2.3}Quality assessment and curation of GEMs}{12}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Tools for community modelling}{13}{subsection.2.2.4}%
+\contentsline {subsubsection}{\nonumberline MICOM}{13}{subsubsection*.7}%
+\contentsline {chapter}{\numberline {3}Methods}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Generation of Draft Models}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Evaluation and Curation of Draft Models}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Creation of complete apoplastic medium}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Construction and simulation of community models}{17}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Evaluating interactions within community models}{17}{subsection.3.4.1}%
+\contentsline {subsubsection}{\nonumberline Niche overlap}{17}{subsubsection*.8}%
+\contentsline {subsubsection}{\nonumberline Cross-feeding}{18}{subsubsection*.9}%
+\contentsline {subsubsection}{\nonumberline Symmetry of interactions}{18}{subsubsection*.10}%
+\contentsline {subsection}{\numberline {3.4.2}Drop-out and drop-in experiments}{18}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}Results}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Reconstruction of metabolic models and community model creation}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Choice of the optimisation method}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Comparison of community and individual growth rates}{22}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Metabolic profiles of each community}{23}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Niche overlap}{24}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Metabolic interactions within the communities}{24}{subsection.4.4.2}%
+\contentsline {subsubsection}{\nonumberline Metrics in pairwise interactions}{24}{subsubsection*.11}%
+\contentsline {subsubsection}{\nonumberline Symmetry in metabolic interactions}{26}{subsubsection*.12}%
+\contentsline {section}{\numberline {4.5}Drop-out experiments}{28}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Potential keystone strain 892}{29}{subsection.4.5.1}%
+\contentsline {chapter}{\numberline {5}Discussion}{32}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Metabolic interactions\textit { in vivo} vs \textit {in silico}}{32}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Keystone species}{33}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Community stability}{35}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Co-occurrence vs. trait-based: Impact of assembly strategies on community behaviour}{36}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Assumptions in model reconstruction and simulation}{37}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Model reconstruction quality and remaining curation challenges}{37}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Medium and its influence}{39}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}Limitations and relevance of the optimisation method}{39}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Limitations of (p)FBA}{40}{subsection.5.6.1}%
+\contentsline {subsubsection}{\nonumberline Cooperative trade-off function - relevance of optimisation method}{40}{subsubsection*.13}%
+\contentsline {section}{\numberline {5.7}Future perspectives}{42}{section.5.7}%
+\contentsline {chapter}{\numberline {6}Conclusion}{44}{chapter.6}%
+\contentsline {chapter}{\nonumberline Bibliography}{45}{chapter*.14}%
+\def \@chapapp {\appendixname }
+\contentsline {chapter}{\numberline {A}Appendix}{53}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Supplementary Figures}{53}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Pairwise co-consumption}{53}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Medium generation process}{54}{subsection.A.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}Impact of optimisation strategy on individual growth rates}{55}{subsection.A.1.3}%
+\contentsline {subsection}{\numberline {A.1.4}Impact of trade-off value $\alpha $ on individual growth rates}{57}{subsection.A.1.4}%
+\contentsline {section}{\numberline {A.2}Supplementary Tables}{58}{section.A.2}%
+\babel@toc {ngerman}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {ngerman}{}\relax 
+\babel@toc {english}{}\relax 
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

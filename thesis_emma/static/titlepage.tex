@@ -1,0 +1,53 @@
+% do not change this file
+\pdfbookmark[0]{\IfLanguageName{ngerman}{Titelseite}{Front Page}}{frontpage}
+
+\begin{titlepage}
+	\IfLanguageName{ngerman}{\includegraphics[width=102.5mm]{static/HHU_Logo_Wort-Bild-Marke_horizontal_RGB}}{\includegraphics[width=102.5mm]{static/Logo_HHU_+Name_EN_horizontal_rgb_+Safezone.png}}
+	
+	\vspace{35mm}
+	
+	% Titel
+	\begin{center}
+		\textbf{\huge \thesistitle}
+		
+		\textbf{\Large \thesisauthor}
+	\end{center}
+	
+	
+	
+	\begin{center}
+		
+	\end{center}
+	
+	\vspace{25mm}
+	
+	\begin{center}
+		
+		{\Large \thesistype}
+		
+		\IfLanguageName{ngerman}{Vorgelegt am Lehrstuhl für Rechnernetze.}{Presented at the Chair of Computer Networks.}
+		
+		\vfill
+		
+		\begin{tabular}[t]{ll}
+			\IfLanguageName{ngerman}{Abgabe der Arbeit}{Submission}: & \DTMmonthname{\thesissubmissionmonth} \thesissubmissionyear \\
+			\ifthenelse{\equal{\graduationlevel}{Seminar}}
+			{% Seminararbeit
+				\IfLanguageName{ngerman}{Betreuung}{Supervisor}:            & \thesissupervisor \\
+			}
+			{% Abschlussarbeit
+				\IfLanguageName{ngerman}{Erstgutachten}{First Reviewer}:         & \firstreviewer \\
+				\IfLanguageName{ngerman}{Zweitgutachten}{Second Reviewer}:       & \secondreviewer \\
+				\ifthenelse{\equal{\firstreviewer}{\thesissupervisor}}%
+				{%
+					% falls Erstgutachten und Betreuung von selber Person, muss der Name hier nicht wiedehrolt werden
+				}%
+				{%
+					\IfLanguageName{ngerman}{Betreuung}{Supervisor}:            & \thesissupervisor \\
+				}%
+			}
+		\end{tabular}
+	\end{center}
+	
+	
+\end{titlepage}
