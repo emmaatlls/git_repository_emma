@@ -91,6 +91,10 @@ DIV=14,%
 			\vspace{10mm}
 			
 			\textbf{\Large \@author}
+			
+			\begin{tabular}[t]{ll}
+				\IfLanguageName{ngerman}{Matrikelnummer}{Student ID}: & \studentid \\
+			\end{tabular}
 		\end{center}
 		
 		\vspace{50mm}

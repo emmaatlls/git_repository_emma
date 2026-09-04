@@ -590,7 +590,6 @@
       \field{issn}{1574-6976}
       \field{journaltitle}{{FEMS} Microbiology Reviews}
       \field{langid}{english}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1574-6976.2007.00089.x}
       \field{number}{2}
       \field{title}{The biosynthesis of peptidoglycan lipid-linked intermediates}
       \field{urlday}{10}
@@ -1514,8 +1513,8 @@
       \field{langid}{english}
       \field{month}{10}
       \field{title}{Agricultural production - crops}
-      \field{urlday}{5}
-      \field{urlmonth}{8}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{dateera}{ce}
@@ -1956,8 +1955,8 @@
       \field{langid}{american}
       \field{month}{12}
       \field{title}{{IBM} {ILOG} {CPLEX} Optimization Studio}
-      \field{urlday}{29}
-      \field{urlmonth}{7}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
       \field{urlyear}{2026}
       \field{year}{2022}
       \field{dateera}{ce}
@@ -4007,13 +4006,9 @@
       \field{shortjournal}{Genome Biol}
       \field{shorttitle}{{MACAW}}
       \field{title}{{MACAW}: a method for semi-automatic detection of errors in genome-scale metabolic models}
-      \field{urlday}{1}
-      \field{urlmonth}{9}
-      \field{urlyear}{2026}
       \field{volume}{26}
       \field{year}{2025}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{79}
       \range{pages}{1}
       \verb{doi}
@@ -4028,6 +4023,7 @@
       \verb{url}
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11954327/
       \endverb
+      \warn{\item article entry 'moyer_macaw_2025' (bib/bib2908.bib): Invalid format '2026-' of date field 'urldate' - ignoring}
     \endentry
     \entry{oftadeh_constraint-based_2024}{misc}{}{}
       \name{author}{4}{}{%
@@ -4078,7 +4074,6 @@
       \field{day}{31}
       \field{langid}{english}
       \field{month}{1}
-      \field{note}{Pages: 2024.01.30.577913 Section: New Results}
       \field{title}{A constraint-based framework to reconstruct interaction networks in microbial communities}
       \field{urlday}{3}
       \field{urlmonth}{7}
@@ -4696,7 +4691,6 @@
       \field{issn}{1469-8137}
       \field{journaltitle}{New Phytologist}
       \field{langid}{english}
-      \field{note}{\_eprint: https://nph.onlinelibrary.wiley.com/doi/pdf/10.1111/nph.70022}
       \field{number}{3}
       \field{title}{Ergosterol-induced immune response in barley involves phosphorylation of phosphatidylinositol phosphate metabolic enzymes and activation of diterpene biosynthesis}
       \field{urlday}{31}
@@ -4997,8 +4991,8 @@
       \field{langid}{english}
       \field{shortjournal}{Bulg. J. Agric. Sc}
       \field{title}{Survey on the worldwide barley production and trade}
-      \field{urlday}{5}
-      \field{urlmonth}{8}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{dateera}{ce}
@@ -5023,13 +5017,13 @@
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labeltitlesource}{title}
-      \field{day}{21}
+      \field{day}{1}
       \field{isbn}{978-92-5-140461-4}
       \field{langid}{english}
-      \field{month}{7}
+      \field{month}{9}
       \field{title}{The State of Food Security and Nutrition in the World 2026}
-      \field{urlday}{23}
-      \field{urlmonth}{8}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
       \field{urlyear}{2026}
       \field{year}{2026}
       \field{dateera}{ce}
@@ -6876,7 +6870,6 @@
       \field{issn}{1574-6976}
       \field{journaltitle}{{FEMS} Microbiology Reviews}
       \field{langid}{english}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1574-6976.2007.00089.x}
       \field{number}{2}
       \field{title}{The biosynthesis of peptidoglycan lipid-linked intermediates}
       \field{urlday}{10}
@@ -7800,8 +7793,8 @@
       \field{langid}{english}
       \field{month}{10}
       \field{title}{Agricultural production - crops}
-      \field{urlday}{5}
-      \field{urlmonth}{8}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{dateera}{ce}
@@ -8242,8 +8235,8 @@
       \field{langid}{american}
       \field{month}{12}
       \field{title}{{IBM} {ILOG} {CPLEX} Optimization Studio}
-      \field{urlday}{29}
-      \field{urlmonth}{7}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
       \field{urlyear}{2026}
       \field{year}{2022}
       \field{dateera}{ce}
@@ -10293,13 +10286,9 @@
       \field{shortjournal}{Genome Biol}
       \field{shorttitle}{{MACAW}}
       \field{title}{{MACAW}: a method for semi-automatic detection of errors in genome-scale metabolic models}
-      \field{urlday}{1}
-      \field{urlmonth}{9}
-      \field{urlyear}{2026}
       \field{volume}{26}
       \field{year}{2025}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{79}
       \range{pages}{1}
       \verb{doi}
@@ -10314,6 +10303,7 @@
       \verb{url}
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11954327/
       \endverb
+      \warn{\item article entry 'moyer_macaw_2025' (bib/bib2908.bib): Invalid format '2026-' of date field 'urldate' - ignoring}
     \endentry
     \entry{oftadeh_constraint-based_2024}{misc}{}{}
       \name{author}{4}{}{%
@@ -10364,7 +10354,6 @@
       \field{day}{31}
       \field{langid}{english}
       \field{month}{1}
-      \field{note}{Pages: 2024.01.30.577913 Section: New Results}
       \field{title}{A constraint-based framework to reconstruct interaction networks in microbial communities}
       \field{urlday}{3}
       \field{urlmonth}{7}
@@ -10982,7 +10971,6 @@
       \field{issn}{1469-8137}
       \field{journaltitle}{New Phytologist}
       \field{langid}{english}
-      \field{note}{\_eprint: https://nph.onlinelibrary.wiley.com/doi/pdf/10.1111/nph.70022}
       \field{number}{3}
       \field{title}{Ergosterol-induced immune response in barley involves phosphorylation of phosphatidylinositol phosphate metabolic enzymes and activation of diterpene biosynthesis}
       \field{urlday}{31}
@@ -11283,8 +11271,8 @@
       \field{langid}{english}
       \field{shortjournal}{Bulg. J. Agric. Sc}
       \field{title}{Survey on the worldwide barley production and trade}
-      \field{urlday}{5}
-      \field{urlmonth}{8}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{dateera}{ce}
@@ -11309,13 +11297,13 @@
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labeltitlesource}{title}
-      \field{day}{21}
+      \field{day}{1}
       \field{isbn}{978-92-5-140461-4}
       \field{langid}{english}
-      \field{month}{7}
+      \field{month}{9}
       \field{title}{The State of Food Security and Nutrition in the World 2026}
-      \field{urlday}{23}
-      \field{urlmonth}{8}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
       \field{urlyear}{2026}
       \field{year}{2026}
       \field{dateera}{ce}

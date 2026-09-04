@@ -16,7 +16,7 @@ The quality of the draft models was assessed using MEMOTE (\cite{lieven_memote_2
 
 To quantify the improvements made in the curation process, after performing all curation steps, I reevaluated the quality of the curated models with MEMOTE. 
 \section{Creation of complete apoplastic medium}
-To mirror the communities’ natural environment as closely as possible, I used metabolomics data from \cite{saake_ergosterol-induced_2025} to reconstruct the medium based on the metabolic composition of the apoplastic fluid in the barley rhizosphere. Compound names were first translated into BiGG IDs and then into the corresponding exchange reactions. The upper bounds of all reactions were constrained based on abundance: the most abundant metabolite was assigned an upper bound of 1000 mmol/(gDw *h) and the other upper bounds were scaled accordingly. Next, the metabolites were categorised according to their flux into groups with upper bounds of 0.1, 10, 100, 500 and 1000 (all in units of mmol/(gDw *h)). Based on community standards of unrestricted secretions, the lower bounds got constrained to -1000 mmol/(gDw *h).This tiered medium, containing 58 compounds, is referred to as the base apoplastic medium. 
+To mirror the communities’ natural environment as closely as possible, I used metabolomics data from \cite{saake_ergosterol-induced_2025} to reconstruct the medium based on the metabolic composition of the apoplastic fluid in the barley rhizosphere. Compound names were first translated into BiGG IDs and then into the corresponding exchange reactions. The upper bounds of all reactions were constrained based on abundance: the most abundant metabolite was assigned an upper bound of 1000 mmol/(gDW *h) and the other upper bounds were scaled accordingly. Next, the metabolites were categorised according to their flux into groups with upper bounds of 0.1, 10, 100, 500 and 1000 (all in units of mmol/(gDW *h)). Based on community standards of unrestricted secretions, the lower bounds got constrained to -1000 mmol/(gDW *h). This tiered medium, containing 58 compounds, is referred to as the base apoplastic medium. 
 The base apoplastic medium was then completed individually for each community, using MICOM’s \texttt{complete\_medium()} function, while minimising the number of medium components. The minimum community growth rate was set to 1, and the minimum individual growth rate was set to 1/n (where n is the size of the community). The two completed media were then merged to create a final completed medium containing a total of 52 metabolites. If a metabolite was present in both media, the final medium was given the higher of the two fluxes. To maintain consistency, the fluxes of the added components were adjusted to fit the tiered medium. For more detailed steps, refer to Supplementary Figure \ref{fig:medium_completion}. 
 The composition of the final medium can be found in Table \ref{tab:apoplastic_fluid_medium} (compound categories) and Table \ref{tab:medium_composition_2} (detailed compound list). Unless indicated otherwise, this medium was used for all simulations and subsequent analyses. 
 
@@ -29,14 +29,14 @@ The composition of the final medium can be found in Table \ref{tab:apoplastic_fl
     \textbf{Category} & \textbf{Number of components} \\ \hline
     Organic Acids \& Carboxylates & 7 \\
     Carbohydrates, Sugars \& Derivatives & 9 \\
-    Amino Acids, Peptides \& Polyamine & 16 \\
+    Amino Acids, Peptides \& Polyamines & 16 \\
     Inorganic Compounds, Ions \& Gases & 19 \\
     Fatty Acids, Lipids \& Steroids & 1 \\ \hline
   \end{tabular}
 \end{table}
 
 \section{Construction and simulation of community models} \label{sec:Construction and simulation of community models}
-The SynComs established by \cite{mahdi_low_2026} were reconstructed using the Python package MICOM (\cite{diener_micom_2020}). Using the curated models and a taxonomy file as input for the ‘Community()’ function, the community models HvSC1 and HvSC2 were reconstructed. Within a community, the members were all equally abundant.
+The SynComs established by \cite{mahdi_low_2026} were reconstructed using the Python package MICOM (\cite{diener_micom_2020}). Using the curated models and a taxonomy file as input for the ‘Community()’ function, the community models \textit{Hv}SC1 and \textit{Hv}SC2 were reconstructed. Within a community, the members were all equally abundant.
 The objective of each community is set to maximal community growth ($\alpha$ = 1.0) while minimising differences between individual growth rates (L2 regularisation) and minimising the sum of fluxes (pFBA). To stay consistent with the community growth rate all reported individual growth rates are scaled by their abundance (which is 1/community size). 
 \subsection{Evaluating interactions within community models}
 \subsubsection{Niche overlap}
@@ -61,4 +61,4 @@ To identify potential cross-feeding interactions, each combination of strains wa
 Metabolic interactions between pairs of community members can be symmetric in the number of exchanged metabolites or in the magnitude of interactions (sum of fluxes for one pairwise interaction). An interaction is said to be symmetric, if both partners provide the same amount of metabolites (or the same total sum of fluxes) in a pairwise interaction, and asymmetric, if one partner is the primary provider either in number of exchanged metabolites or flux magnitude.
 
 \subsection{Drop-out and drop-in experiments}
-Community drop-out experiments were performed in a high-performance computing environment. Following the same procedure as for the complete communities (see Section \ref{sec:Construction and simulation of community models}), each of the 27 (HvSC1) and 26 (HvSC2) drop-out communities were built, by omitting one strain at a time. Community and individual growth rates were compared across drop-outs.
+Community drop-out experiments were performed in a high-performance computing environment. Following the same procedure as for the complete communities (see Section \ref{sec:Construction and simulation of community models}), each of the 27 (\textit{Hv}SC1) and 26 (\textit{Hv}SC2) drop-out communities were built by omitting one strain at a time. Community and individual growth rates were compared across drop-outs.
