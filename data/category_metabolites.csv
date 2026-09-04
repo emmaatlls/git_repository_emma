@@ -1,0 +1,224 @@
+Reaction,Category
+EX_2hg_e,Organic Acids
+EX_2kgnd_e,Sugar Acids
+EX_3amp_e,Nucleotides/Nucleosides
+EX_3pg_e,Sugar Acids
+EX_3ump_e,Nucleotides/Nucleosides
+EX_4abut_e,Organic Acids
+EX_4hphac_e,Organic Acids
+EX_5htrp_e,Amino Acids/Peptides
+EX_5mcsn_e,Nucleotides/Nucleosides
+EX_6pgc_e,Sugar Acids
+EX_acgam1p_e,Sugars
+EX_acmana_e,Sugars
+EX_acnam_e,Sugar Acids
+EX_acon_C_e,Organic Acids
+EX_adn_e,Nucleotides/Nucleosides
+EX_akg_e,Organic Acids
+EX_ala__L_e,Amino Acids/Peptides
+EX_ala_gln_e,Amino Acids/Peptides
+EX_ala_L_asp__L_e,Amino Acids/Peptides
+EX_ala_L_thr__L_e,Amino Acids/Peptides
+EX_ala_leu_e,Amino Acids/Peptides
+EX_alaala_e,Amino Acids/Peptides
+EX_alagly_e,Amino Acids/Peptides
+EX_amp_e,Nucleotides/Nucleosides
+EX_arg__L_e,Amino Acids/Peptides
+EX_argp_e,Amino Acids/Peptides
+EX_asn__L_e,Amino Acids/Peptides
+EX_asp__D_e,Amino Acids/Peptides
+EX_asp__L_e,Amino Acids/Peptides
+EX_balabala_e,Amino Acids/Peptides
+EX_bz_e,Organic Acids
+EX_ca2_e,Inorganic Compounds
+EX_campst_e,Steroids
+EX_ch4s_e,Other
+EX_chor_e,Organic Acids
+EX_cit_e,Organic Acids
+EX_citr__L_e,Amino Acids/Peptides
+EX_cl_e,Inorganic Compounds
+EX_cmp_e,Nucleotides/Nucleosides
+EX_coa_e,Vitamins/Cofactors
+EX_cobalt2_e,Inorganic Compounds
+EX_cu2_e,Inorganic Compounds
+EX_cys__L_e,Amino Acids/Peptides
+EX_cyst__L_e,Amino Acids/Peptides
+EX_cytd_e,Nucleotides/Nucleosides
+EX_dad_2_e,Nucleotides/Nucleosides
+EX_ddca_e,Fatty Acids
+EX_dgsn_e,Nucleotides/Nucleosides
+EX_dhap_e,Sugars
+EX_dtmp_e,Nucleotides/Nucleosides
+EX_ergst_e,Steroids
+EX_eryth_e,Sugar Alcohols
+EX_f6p_e,Sugars
+EX_fe2_e,Inorganic Compounds
+EX_fe3pyovd_kt_e,Other
+EX_fol_e,Vitamins/Cofactors
+EX_for_e,Organic Acids
+EX_fru_e,Sugars
+EX_fum_e,Organic Acids
+EX_g3p_e,Sugar Alcohols
+EX_g3pg_e,Sugars
+EX_galctn__D_e,Amino Acids/Peptides
+EX_glc__D_e,Sugars
+EX_gln__L_e,Amino Acids/Peptides
+EX_gltar_e,Sugar Acids
+EX_glu__L_e,Amino Acids/Peptides
+EX_glx_e,Organic Acids
+EX_gly_asn__L_e,Amino Acids/Peptides
+EX_gly_asp__L_e,Amino Acids/Peptides
+EX_gly_cys_e,Amino Acids/Peptides
+EX_gly_e,Amino Acids/Peptides
+EX_gly_leu_e,Amino Acids/Peptides
+EX_gly_met_e,Amino Acids/Peptides
+EX_glyc_e,Sugar Alcohols
+EX_glyc3p_e,Sugar Alcohols
+EX_glycol_e,Organic Acids
+EX_glycrt_e,Sugar Acids
+EX_glyglygln_e,Amino Acids/Peptides
+EX_gmp_e,Nucleotides/Nucleosides
+EX_gsn_e,Nucleotides/Nucleosides
+EX_h_e,Inorganic Compounds
+EX_h2_e,Other
+EX_h2o_e,Other
+EX_hcys__L_e,Amino Acids/Peptides
+EX_hdca_e,Fatty Acids
+EX_his__L_e,Amino Acids/Peptides
+EX_hmg_e,Organic Acids
+EX_hser__L_e,Amino Acids/Peptides
+EX_icit_e,Organic Acids
+EX_ile__L_e,Amino Acids/Peptides
+EX_indole_e,Other
+EX_k_e,Inorganic Compounds
+EX_LalaDgluMdap_e,Amino Acids/Peptides
+EX_LalaDgluMdapDala_e,Amino Acids/Peptides
+EX_leu__L_e,Amino Acids/Peptides
+EX_lys__D_e,Amino Acids/Peptides
+EX_lys__L_e,Amino Acids/Peptides
+EX_lysglugly_e,Amino Acids/Peptides
+EX_mal__L_e,Amino Acids/Peptides
+EX_male_e,Organic Acids
+EX_malt_e,Sugars
+EX_meoh_e,Other
+EX_met__D_e,Amino Acids/Peptides
+EX_met__L_e,Amino Acids/Peptides
+EX_met_L_ala__L_e,Amino Acids/Peptides
+EX_mevR_e,Organic Acids
+EX_mg2_e,Inorganic Compounds
+EX_mi_oind_e,Sugar Alcohols
+EX_mmet_e,Amino Acids/Peptides
+EX_mn2_e,Inorganic Compounds
+EX_na1_e,Inorganic Compounds
+EX_nac_e,Vitamins/Cofactors
+EX_ncam_e,Vitamins/Cofactors
+EX_nmn_e,Nucleotides/Nucleosides
+EX_no3_e,Inorganic Compounds
+EX_o2_e,Other
+EX_octscoa_e,Other
+EX_oph_e,Other
+EX_orn_e,Amino Acids/Peptides
+EX_peng_e,Other
+EX_pep_e,Organic Acids
+EX_phe__L_e,Amino Acids/Peptides
+EX_pheme_e,Vitamins/Cofactors
+EX_pi_e,Inorganic Compounds
+EX_pro__L_e,Amino Acids/Peptides
+EX_prohisglu_e,Amino Acids/Peptides
+EX_pser__L_e,Amino Acids/Peptides
+EX_pydam_e,Vitamins/Cofactors
+EX_pydx_e,Vitamins/Cofactors
+EX_pydxn_e,Vitamins/Cofactors
+EX_pyr_e,Sugars
+EX_quin_e,Organic Acids
+EX_R_3hdcaa_e,Fatty Acids
+EX_R_3httdca_e,Fatty Acids
+EX_raff_e,Sugars
+EX_ribflv_e,Vitamins/Cofactors
+EX_ribn_e,Sugar Acids
+EX_s_e,Inorganic Compounds
+EX_ser__D_e,Amino Acids/Peptides
+EX_ser__L_e,Amino Acids/Peptides
+EX_serglugly_e,Amino Acids/Peptides
+EX_sheme_e,Vitamins/Cofactors
+EX_sitost_e,Steroids
+EX_skm_e,Organic Acids
+EX_so3_e,Inorganic Compounds
+EX_so4_e,Inorganic Compounds
+EX_stigmast_e,Steroids
+EX_succ_e,Organic Acids
+EX_sucr_e,Sugars
+EX_thm_e,Vitamins/Cofactors
+EX_thr__L_e,Amino Acids/Peptides
+EX_threone_e,Sugar Acids
+EX_trp__L_e,Amino Acids/Peptides
+EX_ttdca_e,Fatty Acids
+EX_tton_e,Fatty Acids
+EX_tym_e,Other
+EX_tyr__D_e,Amino Acids/Peptides
+EX_tyr__L_e,Amino Acids/Peptides
+EX_tyrp_e,Amino Acids/Peptides
+EX_uaccg_e,Sugars
+EX_udcpp_e,Other
+EX_ump_e,Nucleotides/Nucleosides
+EX_uri_e,Nucleotides/Nucleosides
+EX_val__L_e,Amino Acids/Peptides
+EX_xylt_e,Sugar Alcohols
+EX_zn2_e,Inorganic Compounds
+EX_h2s_e,Inorganic Compounds
+EX_glyb_e,Other
+EX_ins_e,Nucleotides/Nucleosides
+EX_nh4_e,Inorganic Compounds
+EX_acac_e,Organic Acids
+EX_acald_e,Other
+EX_cellb_e,Sugars
+EX_xtsn_e,Nucleotides/Nucleosides
+EX_g6p_e,Sugars
+EX_rib__D_e,Amino Acids/Peptides
+EX_4abz_e,Organic Acids
+EX_thymd_e,Nucleotides/Nucleosides
+EX_dxylnt_e,Organic Acids
+EX_rnam_e,Nucleotides/Nucleosides
+EX_3gmp_e,Nucleotides/Nucleosides
+EX_cyan_e,Organic Acids
+EX_gthox_e,Other
+EX_ppi_e,Vitamins/Cofactors
+EX_5oxpro_e,Organic Acids
+EX_fald_e,Other
+EX_ttdcea_e,Fatty Acids
+EX_fe3_e,Inorganic Compounds
+EX_mobd_e,Inorganic Compounds
+EX_ni2_e,Inorganic Compounds
+EX_dachi_e,Sugars
+EX_uacgam_e,Sugars
+EX_2mba_e,Organic Acids
+EX_2mbald_e,Other
+EX_4abutn_e,Other
+EX_4hba_e,Organic Acids
+EX_4hbz_e,Other
+EX_cgly_e,Amino Acids/Peptides
+EX_co2_e,Inorganic Compounds
+EX_co_e,Inorganic Compounds
+EX_etoh_e,Other
+EX_fe3dcit_e,Inorganic Compounds
+EX_g6p_B_e,Sugars
+EX_gcald_e,Other
+EX_glyald_e,Sugars
+EX_glygln_e,Amino Acids/Peptides
+EX_gthrd_e,Amino Acids/Peptides
+EX_gua_e,Nucleotides/Nucleosides
+EX_hom__L_e,Amino Acids/Peptides
+EX_id3acald_e,Other
+EX_inost_e,Sugar Alcohols
+EX_istfrnA_e,Other
+EX_istfrnB_e,Other
+EX_lac__L_e,Organic Acids
+EX_mththf_e,Vitamins/Cofactors
+EX_no2_e,Inorganic Compounds
+EX_ocdcea_e,Fatty Acids
+EX_ppap_e,Organic Acids
+EX_pyovd_kt_e,Other
+EX_stfrnA_e,Other
+EX_stfrnB_e,Other
+EX_thym_e,Nucleotides/Nucleosides
+EX_ura_e,Nucleotides/Nucleosides

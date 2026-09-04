@@ -1,0 +1,64 @@
+\chapter{Methods}
+
+For reconstructing, simulating and analysing the two SynComs and their members \textit{in silico}, I used Python together with COnstraints-Based Reconstruction and Analysis (COBRA) methods, implemented in the COBRApy package (\cite{ebrahim_cobrapy_2013}). Cplex 22.1.1 (\cite{noauthor_ibm_2022}) was the solver for all performed simulations. The complete code for model reconstruction, evaluation and analysis is available in the supplementary folder provided with this thesis.
+\section{Generation of Draft Models}
+All my analyses build on the genome-scale metabolic models of the 50 individual community members. A detailed list of all members, their taxonomic information and Gram staining classification can be found in the appendix (Table \ref{tab:syncom_isolates}). Each strain has a three- or four-digit ID, which is how it will be referred to in this thesis. Genome assemblies were annotated using Bakta (\cite{schwengers_bakta_2021}). Bakta performs rapid and standardised annotation of bacterial genomes using a combination of alignment-free protein sequence finders, highly curated databases like UniProt, and hidden Markov models for structural features. Based on these annotated genomes, I used the Gram-specific workflow in CarveMe (\cite{machado_fast_2018}) to generate a draft model for each community member. 
+\section{Evaluation and Curation of Draft Models}
+The quality of the draft models was assessed using MEMOTE (\cite{lieven_memote_2020}). Based on these reports, the models were curated. This involved several steps: 
+\begin{enumerate}
+    \item Metabolite and reaction information were automatically overwritten with BiGG information to obtain consistent formulas and charge states. Imbalanced reactions were systematically identified and updated with standard BiGG stoichiometric definitions.
+    \item Manual charge and mass balancing of remaining imbalanced reactions from step (I): While the initial curation script was able to balance most of the reactions, I manually corrected 76 reactions, balancing all masses. The remaining charge imbalances, a minority of 82 reactions which mostly stem from pH-dependent protonation states, were not further corrected. 
+    \item Metabolite duplicate removal of metabolites flagged in the MEMOTE report. 
+    \item MACAW (\cite{moyer_macaw_2025}) was used as an additional tool for analysing reaction duplicates and reversibility of reactions including diphosphates. MACAW classifies duplicates into exact, directional, coefficient, and redox categories, which allows for easier correction later on. This curation step was also split in an automated and manual part, the first focusing on exact and directional duplicates, while the latter corrected all remaining reactions. Duplicate reactions featuring different Gene-Protein-Reaction (GPR) associations were resolved systematically: if a GPR was present in only one of the duplicate reactions, the reaction lacking the GPR was deleted, whereas if neither reaction was associated with a GPR, the version with lower prevalence in the BiGG database was removed. Conversely, duplicate reactions that differed solely in their coefficients, redox pairs, or reversibility (and consequently maintained different GPRs) were left unchanged. While these duplicates remain within the final model, they are biologically correct as they represent functionally different variants, such as isoenzymes. 
+    \item Twenty metabolites were flagged as dead-end, orphaned, and/or unconnected in the MEMOTE report of models after step 4. Their correction involved deleting previously undetected duplicate metabolites and adding missing pathway-connecting reactions. The peptidoglycan synthesis pathway was also adjusted to ensure biological correctness. The pentapeptide intermediates contain a \textit{meso}-A2pm residue in Gram-negative bacteria and \textit{Bacillus} species, whereas in other Gram-positive models, they contain a lysine residue (\cite{bouhss_biosynthesis_2008}). Therefore, the pentapeptide \texttt{uaagmda}, which contains a \textit{meso}-A2pm residue, was replaced with \texttt{uaaGLa}, which contains a lysine residue. Because the precursors needed to replace the other pentapeptides were unknown, only \texttt{uaagmda} was replaced, and the other intermediates with \textit{meso}-A2pm residues were kept.
+    \item Assessing growth function of all models. CarveMe modifies the biomass reactions for Gram-positive and Gram-negative bacteria, as they differ in their membrane and cell wall compositions. Production of all required components may not be feasible in all models, because CarveMe predicts an organism's uptake and secretion capabilities based on phylogeny and thus may lack specificity on the strain level. To ensure growth of all the curated models on complete medium (i.e., a nutrient-rich medium that allows for all possible exchanges), the synthesis of all biomass educts was evaluated individually for each biomass educt. This was achieved by setting the demand function, i.e., the irreversible reaction consuming the metabolite, as the objective function for an FBA. There was only one model (895) that was unable to produce all biomass educts: here the synthesis of menaquinol 8 (\texttt{mql8}) failed. Literature states that menaquinone reactions and hence menaquinol synthesis are highly conserved in all Gram-positive and facultative anaerobic Gram-negative bacteria (\cite{boersch_menaquinone_2018}). Strain 895 is one of many aerobe, Gram-negative bacteria in the communities, while all others were able to produce menaquinol, this one was not and should therefore use ubiquinol instead (\cite{pelosi_ubiquinone_2019}). \texttt{Mql8\_c} was replaced with \texttt{q8h2\_c} in the growth reaction and the synthesis pathway for ubiquinol was completed.
+\end{enumerate}
+
+To quantify the improvements made in the curation process, after performing all curation steps, I reevaluated the quality of the curated models with MEMOTE. 
+\section{Creation of complete apoplastic medium}
+To mirror the communities’ natural environment as closely as possible, I used metabolomics data from \cite{saake_ergosterol-induced_2025} to reconstruct the medium based on the metabolic composition of the apoplastic fluid in the barley rhizosphere. Compound names were first translated into BiGG IDs and then into the corresponding exchange reactions. The upper bounds of all reactions were constrained based on abundance: the most abundant metabolite was assigned an upper bound of 1000 mmol/(gDW *h) and the other upper bounds were scaled accordingly. Next, the metabolites were categorised according to their flux into groups with upper bounds of 0.1, 10, 100, 500 and 1000 (all in units of mmol/(gDW *h)). Based on community standards of unrestricted secretions, the lower bounds got constrained to -1000 mmol/(gDW *h). This tiered medium, containing 58 compounds, is referred to as the base apoplastic medium. 
+The base apoplastic medium was then completed individually for each community, using MICOM’s \texttt{complete\_medium()} function, while minimising the number of medium components. The minimum community growth rate was set to 1, and the minimum individual growth rate was set to 1/n (where n is the size of the community). The two completed media were then merged to create a final completed medium containing a total of 52 metabolites. If a metabolite was present in both media, the final medium was given the higher of the two fluxes. To maintain consistency, the fluxes of the added components were adjusted to fit the tiered medium. For more detailed steps, refer to Supplementary Figure \ref{fig:medium_completion}. 
+The composition of the final medium can be found in Table \ref{tab:apoplastic_fluid_medium} (compound categories) and Table \ref{tab:medium_composition_2} (detailed compound list). Unless indicated otherwise, this medium was used for all simulations and subsequent analyses. 
+
+\begin{table}[htbp]
+  \centering
+  \caption{Completed apoplastic fluid medium composition in metabolite classes.}
+  \label{tab:apoplastic_fluid_medium}
+  \begin{tabular}{lc}
+    \hline
+    \textbf{Category} & \textbf{Number of components} \\ \hline
+    Organic Acids \& Carboxylates & 7 \\
+    Carbohydrates, Sugars \& Derivatives & 9 \\
+    Amino Acids, Peptides \& Polyamines & 16 \\
+    Inorganic Compounds, Ions \& Gases & 19 \\
+    Fatty Acids, Lipids \& Steroids & 1 \\ \hline
+  \end{tabular}
+\end{table}
+
+\section{Construction and simulation of community models} \label{sec:Construction and simulation of community models}
+The SynComs established by \cite{mahdi_low_2026} were reconstructed using the Python package MICOM (\cite{diener_micom_2020}). Using the curated models and a taxonomy file as input for the ‘Community()’ function, the community models \textit{Hv}SC1 and \textit{Hv}SC2 were reconstructed. Within a community, the members were all equally abundant.
+The objective of each community is set to maximal community growth ($\alpha$ = 1.0) while minimising differences between individual growth rates (L2 regularisation) and minimising the sum of fluxes (pFBA). To stay consistent with the community growth rate all reported individual growth rates are scaled by their abundance (which is 1/community size). 
+\subsection{Evaluating interactions within community models}
+\subsubsection{Niche overlap}
+Niche overlap was quantified by two measures: Metabolic Resource Overlap (MRO score) and metabolite co-consumption. The MRO score (see Equation \ref{eq:MRO}) provides an upper bound on the overall degree of resource competition by comparing the set of minimal metabolic requirements required for growth $M_i$ of each community member $i$ within an interacting community of size $N$ (\cite{zelezniak_metabolic_2015}). It ranges from 0.0 (no overlap) to 1.0 (identical resource usage). Metabolite co-consumption describes the number of metabolites that are taken up by both strains within a strain pair of a community (\cite{diener_micom_2020}).
+\begin{equation}
+	MRO = \frac{n \displaystyle\sum_{i, j \mid i \neq j} |M_i \cap M_j|}{C(n, 2) \displaystyle\sum_{i=0}^{N} |M_i|}
+	\label{eq:MRO}
+\end{equation}
+\subsubsection{Cross-feeding}
+Metabolic interactions were evaluated using three metrics: the Metabolic Interaction Potential (MIP) score (Equation \ref{eq:MIP}), the flux-based Metabolic Interaction Potential (fMIP) score (Equation \ref{eq:fMIP}), and pairwise cross-feeding assessment. The MIP score measures the reduction in growth-essential compound requirements when species cross-feed by comparing the minimal number of components required for the growth of all members in a non-interacting ($M$) and interacting community ($I$). In contrast, the fMIP score quantifies the proportion of total community flux derived directly from interspecies metabolic exchanges.
+\begin{equation}
+	MIP = M - I
+	\label{eq:MIP}
+\end{equation}
+\begin{equation}
+  fMIP = \frac{\sum flux_{all} - \sum flux_{medium}}{\sum flux_{all}}
+  \label{eq:fMIP}
+\end{equation}
+To identify potential cross-feeding interactions, each combination of strains was assessed for their exchange reactions by comparing the uptakes and secretions individually. Further, the total amount of uptaken and secreted metabolites was compared per taxon, yielding an overview about the most active interaction partners.
+
+\subsubsection{Symmetry of interactions}
+Metabolic interactions between pairs of community members can be symmetric in the number of exchanged metabolites or in the magnitude of interactions (sum of fluxes for one pairwise interaction). An interaction is said to be symmetric, if both partners provide the same amount of metabolites (or the same total sum of fluxes) in a pairwise interaction, and asymmetric, if one partner is the primary provider either in number of exchanged metabolites or flux magnitude.
+
+\subsection{Drop-out and drop-in experiments}
+Community drop-out experiments were performed in a high-performance computing environment. Following the same procedure as for the complete communities (see Section \ref{sec:Construction and simulation of community models}), each of the 27 (\textit{Hv}SC1) and 26 (\textit{Hv}SC2) drop-out communities were built by omitting one strain at a time. Community and individual growth rates were compared across drop-outs.

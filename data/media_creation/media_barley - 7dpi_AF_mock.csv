@@ -1,0 +1,87 @@
+MS.Label,date,Sample.label.on.tube,Species,Tissue.type,Condition.1,Condition.2,exp,prtcl,Technical.replicate,Biological.replicate,Harvested.culture.volume.[ml],Culture.age.[passage.number].**,GroupVar,Compound,ISTD,Resp,ISTD.Resp,Resp.Ratio,Acq.Method.Condensed
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,2-keto-gluconate_UK_13.6,Ribitol,"830,163.61","356,619.12",2.33,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,2-keto-gluconate_UK_13.6,Ribitol,"1,128,818.48","451,269.03",2.50,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,2-keto-gluconate_UK_13.76,Ribitol,"283,569.52","356,619.12",0.80,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,2-keto-gluconate_UK_13.76,Ribitol,"394,913.04","451,269.03",0.88,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,5-OH-Tryptophan_UK,Ribitol,"2,033,994.54","356,619.12",5.70,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,5-OH-Tryptophan_UK,Ribitol,"1,084,755.88","451,269.03",2.40,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,5-oxoproline_UK_11.18,Ribitol,"564,166.72","356,619.12",1.58,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,5-oxoproline_UK_11.18,Ribitol,"519,561.37","451,269.03",1.15,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,aconitate_UK_13.33,Ribitol,"4,610.19","356,619.12",0.01,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,aconitate_UK_13.33,Ribitol,"5,119.41","451,269.03",0.01,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,alpha-Alanine,Ribitol,"505,966.10","356,619.12",1.42,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,alpha-Alanine,Ribitol,"551,967.79","451,269.03",1.22,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Aspartate,Ribitol,"460,672.52","356,619.12",1.29,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Aspartate,Ribitol,"158,782.69","451,269.03",0.35,split
+22-0023_125,230524,125,Hordeum vulgare (AF mock),"apoplastic fluid from mock roots, 7 dpi","crude extract, in CHCl3",,4,4,3,3,"0,9",7dpi,"Hordeum vulgare (AF mock)_apoplastic fluid from mock roots, 7 dpi",Beta_Sitosterol,Cholesterol_TMS,"1,920,480.89","1,509.99","1,271.85",splitless
+22-0023_125,230524,125,Hordeum vulgare (AF mock),"apoplastic fluid from mock roots, 7 dpi","crude extract, in CHCl3",,4,4,3,3,"0,9",7dpi,"Hordeum vulgare (AF mock)_apoplastic fluid from mock roots, 7 dpi",Campesterol_TMS,Cholesterol_TMS,"1,189,252.73","1,509.99",787.59,splitless
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Citrate+Isocitrate,Ribitol,"1,046,377.51","356,619.12",2.93,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Citrate+Isocitrate,Ribitol,"946,007.38","451,269.03",2.10,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,deoxyfructosazin_UK_19.99,Ribitol,"157,704.13","356,619.12",0.44,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,deoxyfructosazin_UK_19.99,Ribitol,"342,251.28","451,269.03",0.76,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,DMPA,Ribitol,"256,740.12","356,619.12",0.72,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,DMPA,Ribitol,"303,830.89","451,269.03",0.67,split
+22-0023_125,230524,125,Hordeum vulgare (AF mock),"apoplastic fluid from mock roots, 7 dpi","crude extract, in CHCl3",,4,4,3,3,"0,9",7dpi,"Hordeum vulgare (AF mock)_apoplastic fluid from mock roots, 7 dpi",Ergosterol_TMS,Cholesterol_TMS,634.82,"1,509.99",0.42,splitless
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Fructose,Ribitol,"5,882,904.55","356,619.12",16.50,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Fructose,Ribitol,"3,831,258.71","451,269.03",8.49,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Fumarate,Ribitol,"150,521.57","356,619.12",0.42,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Fumarate,Ribitol,"163,875.02","451,269.03",0.36,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Gaba,Ribitol,"788,491.27","356,619.12",2.21,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Gaba,Ribitol,"887,000.84","451,269.03",1.97,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,galactarate_UK_14.14,Ribitol,"318,158.45","356,619.12",0.89,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,galactarate_UK_14.14,Ribitol,"455,124.02","451,269.03",1.01,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Glucose,Ribitol,"2,638,359.62","356,619.12",7.40,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Glucose,Ribitol,"2,604,973.77","451,269.03",5.77,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Glutamate,Ribitol,"841,650.69","356,619.12",2.36,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Glutamate,Ribitol,"768,479.46","451,269.03",1.70,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Glycerate,Ribitol,"467,216.55","356,619.12",1.31,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Glycerate,Ribitol,"568,074.31","451,269.03",1.26,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Glycerol,Ribitol,"1,787,511.48","356,619.12",5.01,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Glycerol,Ribitol,"1,476,517.43","451,269.03",3.27,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,glyceryl-glucosid,Ribitol,"1,445,018.22","356,619.12",4.05,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,glyceryl-glucosid,Ribitol,"1,313,168.29","451,269.03",2.91,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Glycine,Ribitol,"204,333.16","356,619.12",0.57,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Glycine,Ribitol,"202,490.80","451,269.03",0.45,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,hydroxyglutarate,Ribitol,"76,683.52","356,619.12",0.22,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,hydroxyglutarate,Ribitol,"67,999.38","451,269.03",0.15,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Isoleucine,Ribitol,"288,216.01","356,619.12",0.81,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Isoleucine,Ribitol,"205,294.83","451,269.03",0.45,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Leucine,Ribitol,"330,762.19","356,619.12",0.93,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Leucine,Ribitol,"258,330.36","451,269.03",0.57,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Malate,Ribitol,"7,265,396.82","356,619.12",20.37,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Malate,Ribitol,"7,743,148.56","451,269.03",17.16,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Maleate,Ribitol,"3,797.24","356,619.12",0.01,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Maleate,Ribitol,"5,030.62","451,269.03",0.01,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Maltose,Ribitol,"326,397.05","356,619.12",0.92,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Maltose,Ribitol,"226,616.73","451,269.03",0.50,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Myoinositol,Ribitol,"791,965.97","356,619.12",2.22,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Myoinositol,Ribitol,"805,389.38","451,269.03",1.78,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Proline,Ribitol,"54,580.14","356,619.12",0.15,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Proline,Ribitol,"32,894.41","451,269.03",0.07,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,quinate_UK_14.438,Ribitol,"185,636.03","356,619.12",0.52,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,quinate_UK_14.438,Ribitol,"206,153.55","451,269.03",0.46,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Raffinose,Ribitol,"37,403.52","356,619.12",0.10,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Raffinose,Ribitol,"64,254.65","451,269.03",0.14,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,ribonate_UK,Ribitol,"42,671.27","356,619.12",0.12,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,ribonate_UK,Ribitol,"47,524.40","451,269.03",0.11,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Serine,Ribitol,"515,853.01","356,619.12",1.45,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Serine,Ribitol,"427,548.79","451,269.03",0.95,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Shikimate,Ribitol,"94,786.45","356,619.12",0.27,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Shikimate,Ribitol,"104,173.70","451,269.03",0.23,split
+22-0023_125,230524,125,Hordeum vulgare (AF mock),"apoplastic fluid from mock roots, 7 dpi","crude extract, in CHCl3",,4,4,3,3,"0,9",7dpi,"Hordeum vulgare (AF mock)_apoplastic fluid from mock roots, 7 dpi",Stigmast-5-ene,Cholesterol_TMS,"1,939,271.86","1,509.99","1,284.29",splitless
+22-0023_125,230524,125,Hordeum vulgare (AF mock),"apoplastic fluid from mock roots, 7 dpi","crude extract, in CHCl3",,4,4,3,3,"0,9",7dpi,"Hordeum vulgare (AF mock)_apoplastic fluid from mock roots, 7 dpi",Stigmastanol_TMS,Cholesterol_TMS,"5,678,833.93","1,509.99","3,760.84",splitless
+22-0023_125,230524,125,Hordeum vulgare (AF mock),"apoplastic fluid from mock roots, 7 dpi","crude extract, in CHCl3",,4,4,3,3,"0,9",7dpi,"Hordeum vulgare (AF mock)_apoplastic fluid from mock roots, 7 dpi",Stigmasterol_TMS,Cholesterol_TMS,"888,377.89","1,509.99",588.33,splitless
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Succinate,Ribitol,"209,052.59","356,619.12",0.59,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Succinate,Ribitol,"199,448.04","451,269.03",0.44,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Sucrose,Ribitol,"92,447.65","356,619.12",0.26,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Sucrose,Ribitol,"160,133.21","451,269.03",0.35,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Threonate_UK_11.5,Ribitol,"161,052.82","356,619.12",0.45,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Threonate_UK_11.5,Ribitol,"233,665.10","451,269.03",0.52,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Threonate_UK_11.7,Ribitol,"101,984.58","356,619.12",0.29,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Threonate_UK_11.7,Ribitol,"115,436.85","451,269.03",0.26,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Threonine,Ribitol,"124,823.53","356,619.12",0.35,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Threonine,Ribitol,"126,435.98","451,269.03",0.28,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,tyramine_UK_11.19,Ribitol,"1,307,056.01","356,619.12",3.67,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,tyramine_UK_11.19,Ribitol,"2,202,584.24","451,269.03",4.88,split
+22-0023_139,230531,125,Hordeum vulgare (AF mock),interphase,,,4,4,3,3,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Valine,Ribitol,"476,610.78","356,619.12",1.34,split
+22-0023_142,230534,128,Hordeum vulgare (AF mock),interphase,,,4,4,4,4,"0,9",7dpi,Hordeum vulgare (AF mock)_interphase,Valine,Ribitol,"498,620.94","451,269.03",1.10,split

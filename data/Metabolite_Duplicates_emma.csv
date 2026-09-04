@@ -1,0 +1,4 @@
+met_delete;met_keep;rxn_dup_pairs[del_rxn, keep_rxn]
+5d4dglcr_c;5dh4dglc_c;[(GLCRD_1, GLCRD), (GALCTD_1, GALCTD), (GLCRAL_1, GLCRAL)]
+orn__L_c;orn_c;[(ORNTA_1, ORNTA), (OCBT_1, OCBT), (ORNCD, ORNCD_1), (ARGN_1, ARGN)]
+orn__L_e;orn_e;[(EX_orn__L_e, EX_orn_e)]
