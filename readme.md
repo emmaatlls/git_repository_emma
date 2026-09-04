@@ -1,6 +1,6 @@
 # Git repository - Emma's Bachelor Thesis
 
-This repository contains all of Emma's work on her Bachelor's thesis project about analysing plant-microbe interactions by modelling Synthetic Communities in the barley rhizosphere. 
+This repository contains all of Emma's work on her Bachelor's thesis project about analysing plant-microbe and microbe-microbe interactions by modelling Synthetic Communities in the barley rhizosphere. 
 
 There are two main folders:
 

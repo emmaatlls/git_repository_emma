@@ -1,6 +1,6 @@
 ### Code repository - Emma's Bachelors Thesis
 
-- `bash_scripts` contains bash scripts used throughout the project
+- `bash_scripts` contains bash scripts used throughout the project. 
 - `organised_code` contains the all Jupyter notebooks
     - `reconstruction_curation`: all scripts needed for the curation pipeline
     - `community.ipynb`: creation and analysis of the two SynComs
